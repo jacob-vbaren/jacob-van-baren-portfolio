@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Cat Feeder – Jacob T. Van Baren</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Contact bar shows key details across every page -->
+    <div class="contact-bar">
+        Calvin University &middot; jtv42@calvin.edu &middot; (779) 236‑3471
+    </div>
+    <header class="site-header">
+        <div class="container">
+            <div class="site-brand">
+                <h1 class="site-title">Jacob T. Van Baren</h1>
+                <p class="site-tagline">Internship &amp; Personal Projects Showcase</p>
+            </div>
+            <nav class="site-nav">
+                <a href="index.html">Portfolio</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <div class="project-container">
+            <h1 class="project-title">Automatic Cat Feeder</h1>
+            <!-- Display the main feeder and internal view together; remove extraneous screenshots -->
+            <div class="project-images">
+                <img class="project-image" src="images/automatic_cat_feeder.png" alt="Automatic Cat Feeder">
+                <img class="project-image" src="images/automatic_cat_feeder3.png" alt="Automatic Cat Feeder internal view">
+            </div>
+            <div class="project-section">
+                <h2>Overview</h2>
+                <p>This project tackles the challenge of feeding household cats while preventing raccoons and other pests from raiding the food. The design accommodates up to 100&nbsp;lbs of kibble by stacking bulk storage buckets above a custom 3D‑printed housing. A servo‑actuated gate dispenses measured portions into a tray, and the funnel and outlet geometry control the flow to deliver consistent servings.</p>
+            </div>
+            <div class="project-section">
+                <h2>Role</h2>
+                <p>I developed every component in Fusion&nbsp;360, selected the electronics using an Arduino R4&nbsp;Uno WiFi and MG996R servo, and programmed the timing logic to dispense food automatically or on command via Amazon Alexa. To handle the weight of tens of pounds of feed, I designed structural features like ball‑bearing guides and heat‑inserted threaded inserts that allow the gate to move smoothly under load and enable the entire feeder to be disassembled and reassembled.</p>
+            </div>
+            <div class="project-section">
+                <h2>Tools Used</h2>
+                <p>Fusion&nbsp;360 for 3D modelling; Arduino R4&nbsp;Uno WiFi microcontroller with servo control; MG996R servo; ball bearings and heat inserts for modular assembly; and IoT integration via Arduino Cloud for remote operation.</p>
+            </div>
+            <div class="project-section">
+                <h2>Outcome / Impact</h2>
+                <p>The feeder reliably delivers scheduled portions while keeping pests out of the stored food. By optimising the funnel angle and feed tube to reduce forces on the gate and integrating smooth ball‑bearing guides, the design allows a small servo to handle significant static loads. This project deepened my experience in mechanical design, embedded electronics and additive manufacturing, and sets the stage for future enhancements such as a more stable base or additional sensors.</p>
+            </div>
+            <a href="index.html" class="back-link">← Back to Portfolio</a>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Jacob T. Van Baren. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
